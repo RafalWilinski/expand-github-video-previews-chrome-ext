@@ -1,0 +1,51 @@
+.ghvp-preview {
+  display: block;
+  margin: 8px 0;
+  border: 1px solid var(--borderColor-default, #d0d7de);
+  border-radius: 6px;
+  overflow: hidden;
+  max-width: 640px;
+  background: var(--bgColor-muted, #f6f8fa);
+}
+
+.ghvp-preview video {
+  display: block;
+  width: 100%;
+  max-height: 480px;
+  outline: none;
+}
+
+.ghvp-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: 6px;
+  padding: 1px 6px;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 20px;
+  color: var(--fgColor-accent, #0969da);
+  background: var(--bgColor-accent-muted, #ddf4ff);
+  border: 1px solid var(--borderColor-accent-muted, #54aeff66);
+  border-radius: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  vertical-align: middle;
+  user-select: none;
+}
+
+.ghvp-toggle:hover {
+  background: var(--bgColor-accent-emphasis, #0969da);
+  color: var(--fgColor-onEmphasis, #fff);
+}
+
+.ghvp-toggle--active {
+  background: var(--bgColor-accent-emphasis, #0969da);
+  color: var(--fgColor-onEmphasis, #fff);
+}
+
+.ghvp-error {
+  padding: 12px;
+  color: var(--fgColor-danger, #d1242f);
+  font-size: 12px;
+}
